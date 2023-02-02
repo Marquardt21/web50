@@ -1,0 +1,30 @@
+.flex-container {
+    display: flex;
+}
+
+.flex-search{    
+    position:relative;
+}
+    #flex-search form {
+    border 1px solid #000
+    justify-content:center;
+    color: blue;
+    text-align: center;
+    font-size: 81.25%
+}
+
+.flex-links
+{
+    position:relative;
+    }
+    
+    #flex-links ul li {
+    border 1px solid #000
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    list-style:none;
+    margin-right:50px;
+    position:absolute;
+    top:0;
+    right:0;
+    }
+
