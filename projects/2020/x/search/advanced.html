@@ -2,15 +2,58 @@
 <html lang="en">
     <head>
         <title>Advanced Search</title>
+        <style>
+            .search {
+                margin: 0;
+                position:absolute;
+                top:50%;
+                width:100%;
+                text-align: center;
+            }
+            
+            .nav {
+                text-align: right;
+                margin: center;
+                font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+                list-style-type: none;
+            }
+            .asinput {
+                width: 300px;
+                padding: 12px;
+                margin: 8px;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+                .aslabel {
+                font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+                width:300px;
+                padding: 12px;
+                margin: 8px;
+                display: inline-block;
+                box-sizing: border-box;
+            }
+        </style>
     </head>
     <body>
-        <form action="https://www.google.com/advanced_search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Advanced Search">
-        </form>
-        <ul style="list-style-type:none">
+        <ul class="nav">
             <li><a href="index.html">Google Search</a></li>
             <li><a href="image.html">Image Search</a></li>
         </ul>
+        <h1>Advanced Search</h1>
+        <h2>Find pages with ...</h2>
+        <form action="https://www.google.com/advanced_search">
+            <label for="allwords" class="aslabel">all these words:</label>
+            <input type="text" id="allwords" name="allw" class="asinput"><br>
+            <label for="everyyword" class="aslabel">this exact word or phrase:</label>
+            <input type="text" id="everyword" name="exactw" class="asinput"><br>
+            <label for="anywords" class="aslabel">any of these words:</label>
+            <input type="text" id="anywords" name="anyw" class="asinput"><br>
+            <label for="noneword" class="aslabel">none of these words:</label>
+            <input type="text" id="noneword" name="nonew" class="asinput"><br>
+            
+            <input type="submit" value="Advanced Search">
+        </form>
     </body>
 </html>
