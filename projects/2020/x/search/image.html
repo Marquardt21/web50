@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link href="project0.css" rel="stylesheet" type="text/css">
         <title>Google Image Search</title>
     </head>
     <body>
         <ul class="nav">
             <li><a href="index.html">Google Search</a></li>
         </ul>
-        <form action="http://images.google.com/images">
-            <input type="text" name="q">
-            <input type="submit" value="Google Image Search">
+        <form class ="search" action="https://www.google.com/search">
+            <input type="text" name="q" class="roundedcorners"><br>
+            <input type="hidden" name="tbm" value="isch">
+            <input type="submit" value="Google Image Search" class="searchbutton">
         </form>
-        <ul style="list-style-type:none">
-            <li><a href="index.html">Google Search</a></li>
-        </ul>
     </body>
 </html>

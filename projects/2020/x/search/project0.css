@@ -20,6 +20,12 @@ h2 {
     font-size: 16px;
 }
 
+hr {
+    border-width: 1px;
+    border-color: #ebebeb;   
+    border-style: solid;
+}
+
 .search {
     margin: 0;
     position:absolute;
@@ -51,16 +57,22 @@ h2 {
 }
 
 .asinput {
-    width: 300px;
+/*     width: 300px;
     padding: 12px;
     margin: 8px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box;
+    box-sizing: border-box; */
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    display: inline-block;
 }
 .aslabel {
-    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
     width:300px;
     padding: 12px;
     margin: 8px;
@@ -69,7 +81,20 @@ h2 {
 }
 
 .advsearchbutton {
-    background: #4d90fe;
+    line-height: 100%;
+    height: 30px;
+    min-width: 120px;
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    outline: 0;
     display: inline-block;
     /* margin: 20px 25%;
     padding: 0px 12px; */
