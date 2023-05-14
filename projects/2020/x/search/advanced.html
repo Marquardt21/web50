@@ -11,15 +11,15 @@
         <h1>Advanced Search</h1>
         <hr>
         <h2>Find pages with ...</h2>
-        <form action="https://www.google.com/advanced_search">
+        <form action="https://www.google.com/search?as_q=q&as_epq=r&as_oq=s&as_eq=t">
             <label for="allwords" class="aslabel">all these words:</label>
-            <input type="text" id="allwords" name="allw" class="asinput"><br>
+            <input type="text" id="allwords" name="as_q" class="asinput"><br>
             <label for="everyyword" class="aslabel">this exact word or phrase:</label>
-            <input type="text" id="everyword" name="exactw" class="asinput"><br>
+            <input type="text" id="everyword" name="as_epq" class="asinput"><br>
             <label for="anywords" class="aslabel">any of these words:</label>
-            <input type="text" id="anywords" name="anyw" class="asinput"><br>
+            <input type="text" id="anywords" name="as_oq" class="asinput"><br>
             <label for="noneword" class="aslabel">none of these words:</label>
-            <input type="text" id="noneword" name="nonew" class="asinput"><br>
+            <input type="text" id="noneword" name="as_eq" class="asinput"><br>
             
             <input type="submit" value="Advanced Search" class="advsearchbutton">
         </form>
